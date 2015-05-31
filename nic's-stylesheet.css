@@ -1,3 +1,28 @@
-body{color:blue;
-	background-color: orange;
-	}
+body{ color: blue;
+	font-family: helvetica;
+	background-color: #99ffff;}
+
+a:link{text-decoration: none;}
+
+table tr td:empty{width: 50px}
+
+table tr td{
+	padding-left: 145px;
+	padding-right: 125px;}
+
+p{
+	text-align: center}
+
+
+
+img{ 
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 50px;
+    height: auto;}
+
+
+
+
+	
