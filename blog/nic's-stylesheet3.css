@@ -3,17 +3,11 @@ body{ color: blue;
 	background-color: #99ffff;}
 
 a:link{text-decoration: none;}
-a:visited{color: purple}
 
-table tr td:empty{width: 50px}
-
-table tr td{
-	padding-left: 145px;
-	padding-right: 125px;}
 
 p{
-	text-align: center;
-	font-size: 30px;
+	text-align: left;
+	font-size: 18px;
 }
 
 
