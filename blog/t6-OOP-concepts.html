@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<head>
+	  <title>Nic's Knacks</title>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="nic's-stylesheet3.css">
+	</head>
+	
+
+	<main>
+	  <h1>Nic's Knacks</h1>
+	  <h2></h2>
+	  <h4>06/25/15</h4>
+	
+
+	  <section>
+	    <p>
+	Welcome to my humble little blog. I'm going to do my best to fill your mind full of all kinds of technobabble.
+		</p>
+	    <p>
+	    	This week we are taking a look at variable scope in ruby. How many scopes are there? What do they scope? All shall be made clear in due time my apprentice. 
+	    </p>
+
+	    <p>
+	    	First off, I should go over what a scope actually is within the contexts of Ruby. A scope essentially defines where a vriable is accesable from in the program. There are 5 types of scope within ruby. They are global, class, instance, local, and constant.
+	    </p>
+		<p>
+			Let's start off with local,the simplest of the variables. A local variable is local to the code for which it is declared. It cannot be accessed outside the loop or method it is declared in. These are good to use if you have a variable that you only plan on using once. You would signify a local variable by starting it with an underscore or a lower case letter
+			<br>
+			'example = x' or '_example = x'
+		</p>
+		<p>
+			On the opposite end of that we have global variables.
+			A global variable is accessable from anywhere in the ruby program. It is generally discouraged to use these in the program. This because while they are visible from anywhere in the program, they can also be changed from anywhere in the program. There are a list of predefined global variables that you could make use of in the program. All global variables are preficed with the $ symbol.
+			<br>
+			Below is a link where you can find a table of these global variables.
+			<br>
+			<a href="http://www.techotopia.com/index.php/Ruby_Variable_Scope">Link</a>
+		</p>
+		<p>
+			Next are the class variables. A class variable is shared among all instances of the class. This means this variable will have the same value throughout the class. Another way you could think about it is that they are like a global variable within the confines of a single class. You would want to use this if you are going to have a variable that you would have remain constant throughout a class. You would add the @@ symbol prefix to the varibale to make it a class variable.
+			<br>
+			'@@example = 0'
+		</p>	
+		<p>
+			Now we have instance variables. These are similar to a class variable, the difference being that they are only local to specfic instances of an object. You can call and change the instance varible in multiple instanes of an object. The change only remains local within the individual instances. This would be useful if you wanted to use a value for an object but wanted to perform multiple operations to it without changing the original value. The prefix for in instance variable is the @ symbol.
+			<br>
+			'@example = 0'
+			<br>
+			Make a point to remember that a class variable has two (@@) while an instance variable only has one (@).
+		</p>	
+		<p>
+			Lastly, there is the constant variable. A constant varible is a variable that should not be changed once it is assigned. Ruby will even issue a warning if you attempt to change a constant variable. If you assign a constant within a module or a class it wil be available anywhere within that. If assigned outside of these it acts like a global variable and it accessable anywhere in the program. To declare a global variable you need to assign the variable so that it is all capitlaized.
+			<br>
+			'EXAMPLE = 0'
+		</p>
+		<p>
+			There you have it ladies and gentleman. I do hope I've widened your scope on the issue.
+		</p>	
+	      <!-- copy and paste as many sections as you want to add paragraphs -->
+	  </section>
+	</main>
+
