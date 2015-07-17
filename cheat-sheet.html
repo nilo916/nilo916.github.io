@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="chest-sheet.css">
+
+        <title>CSS Cheat Sheet</title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+          <h1>CSS Cheat Sheet</h1>
+
+        </header>
+
+
+
+        <section class="column1">
+
+            <article>
+
+                <h2>Selectors</h2>
+
+                <details>
+
+                  <summary><code>div</code></summary>
+
+                  <p>All DIV tags</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>div,span</code></summary>
+
+                  <p>All DIV and all SPAN tags</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>div span</code></summary>
+
+                  <p>allSPAN tags inside DIVs</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>#content</code></summary>
+
+                  <p>Element with ID "content"</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>.box</code></summary>
+
+                  <p>all elements with the CLASS "box"</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>ul#box</code></summary>
+
+                  <p>UL tag with ID "box"</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>span.box</code></summary>
+
+                  <p>all SPAN tags with CLASS "box"</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>*</code></summary>
+
+                  <p>All elements</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>#box*</code></summary>
+
+                  <p>All elements inside #box</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>a:link, a:active, a:visited</code></summary>
+
+                  <p>Links in normal state, in clicked state, in visited state</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>a:hover</code></summary>
+
+                  <p>Link with mouse over it</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>div > span</code></summary>
+
+                  <p>All SPANs one level deep in a DIV</p>
+
+                </details>
+
+            </article>
+
+
+
+            <article>
+
+                <h2>Box Model</h2>
+
+                <img src="imgs/box.model.png"></img>
+
+            </article>
+
+
+
+            <article>
+
+                <h2>Positioning</h2>
+
+                <details>
+
+                  <summary><code>position</code></summary>
+
+                  <p>Places elements on screen, e.g. absolute, fixed, relative</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>float</code></summary>
+
+                  <p>Stacks elements horizontlly in a particular direction, e.g left</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>top, left, right, bottom</code></summary>
+
+                  <p>Specifies the offsets used in absolute, fixed, and relative postions, e.g. top: 10px; left: 10px</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>display</code></summary>
+
+                  <p>Sets how the element is placed in the doc flow, e.g. block, inline, none</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>z-index</code></summary>
+
+                  <p>Sets the stacking order of elements, e.g. z-index of 1 is below z-index of 2</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>overflow</code></summary>
+
+                  <p>Sets what happens to content outside fo container, e.g. auto, hidden</p>
+
+                </details>
+
+            </article>
+
+        </section>
+
+
+
+        <section class="column2">
+
+            <article>
+
+                <h2>Text</h2>
+
+                <details>
+
+                  <summary><code>font-family</code></summary>
+
+                  <p>font used, e.g. Helvetica, Arial</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>font-size</code></summary>
+
+                  <p>Text size, e.g. 60px, 3em</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>color</code></summary>
+
+                  <p>Text color, e.g.#000, #abcdef</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>font-weight</code></summary>
+
+                  <p>How bold the text is, e.g. bold</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>font-style</code></summary>
+
+                  <p>What style the text is, e.g. italic</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>text-decoration</code></summary>
+
+                  <p>Sets a variety of effects on text, e.g. underline, overline, none</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>text-align</code></summary>
+
+                  <p>How text is aligned, e.g. center</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>line-height</code></summary>
+
+                  <p>Spacing between lines, e.g.2em</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>letter-spacing</code></summary>
+
+                  <p>Spacing between letters, e.g. 5px</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>text-indent</code></summary>
+
+                    <p>Indent of the first line, e.g. 2em</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>text-transform</code></summary>
+
+                  <p>Applies formating to text, e.g. uppercase, lowercase, capitalize</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>vertical align</code></summary>
+
+                  <p>Align relative to base line, e.g. text-top</p>
+
+                </details>
+
+            </article>
+
+
+
+            <article>
+
+                <h2>Borders and Lists</h2>
+
+                <details>
+
+                  <summary><code>border</code></summary>
+
+                  <p>Sets border style for all borders, in the format: border:(solid, dashed, dotted, double)(width)(color),e.g. border: solid 1px #000</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>border-top, border-bottom, border-right, border-left</code></summary>
+
+                    <p>Sets border style for a specific border(same property syntax used for padding and margin, e.g. margin-left)</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>list-style-type</code></summary>
+
+                  <p>Sets style of bullets, e.g. square</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>list-style-position</code></summary>
+
+                  <p>Sets how text wraps when bulleted, e.g. outisde,inside</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>list-style-image</code></summary>
+
+                  <p>Sets an image for a bullet, e.g. list-style-image:url(bullet.png)</p>
+
+                </details>
+
+            </article>
+
+
+
+            <article>
+
+                <h2>Everything Else</h2>
+
+                <details>
+
+                  <summary><code>background</code></summary>
+
+                  <p>Sets background of an element, in the format: background: (color) (image) (repeat)(position), e.g. background: #000 url(bg.png)repeat-x top left</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>cursor</code></summary>
+
+                  <p>Sets shape of cursor, e.g. pointer</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>outline</code></summary>
+
+                  <p>A border drawn around an element that doesn't affect the box model</p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>border-collapse</code></summary>
+
+                  <p>Sets how borders within tables behave, e.g. collapse </p>
+
+                </details>
+
+
+
+                <details>
+
+                  <summary><code>clear</code></summary>
+
+                  <p>Sets on what line a new line in realtion to nearby floated elements, e.g. left, right, both</p>
+
+                </details>
+
+
+
+            </article>
+
+        </section>
+
+    </body>
+
+</html>
