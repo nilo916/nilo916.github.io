@@ -32,9 +32,15 @@ header a {
   font-size: 19px;
 }
 
+#line {
+    border-top: solid black 1px;
+
+}
+
 #social_media_icon{
 	border-radius: 40px;
 	display: inline;
+  margin-top: 15%;
 	margin-left: auto;
 	margin-right:auto;
 	width: 50px;
