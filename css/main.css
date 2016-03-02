@@ -1,0 +1,41 @@
+header {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 5em;
+}
+
+header a {
+  color: black;
+}
+
+#navbar {
+  list-style-type: none;
+  min-height: 30px;
+  text-align: center;
+  background-color: black;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 0px;
+}
+
+#navbar li {
+  display: inline;
+  padding: 38px;
+  text-align: center;
+}
+
+#navbar a {
+  color: white;
+  text-align: center;
+  font-family: PT Sans Narrow, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+#social_media_icon{
+	border-radius: 40px;
+	display: inline;
+	margin-left: auto;
+	margin-right:auto;
+	width: 50px;
+  height: auto;}
